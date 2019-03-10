@@ -1,0 +1,80 @@
+
+html, body {
+    overflow: visible;
+}
+
+.container-fluid {
+
+    background-color: yellow;
+}
+
+.container { margin-top: 20px;
+    background-color: yellow; 
+    padding-bottom: 60px;
+}
+
+.navbar-default{
+    /* background-color: whitesmoke; */
+    background-color: yellow;
+    margin: 0px;
+   }
+
+   /* img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+.img-circle{
+    max-width: 10%;
+    min-width: 75px;
+    max-height: 45px;
+    min-height: 75px;
+    /* margin: 6px; */
+    position: left;
+}
+
+.navbar-nav{
+    margin-top: 11px;
+    font-size: 20px
+}
+
+@media (min-width: 992px){
+    .navbar-nav li {
+        padding-left : 150px;
+        /* margin-right : 20px; */
+    }
+}
+
+
+/* /* .row-no-gutters{ */
+    /* text-align: center;
+   -ms-text-justify: auto;
+} */ */
+
+.main{
+    background-color: rgb(235, 171, 76);
+    margin-top: 20px;
+    text-align: center;
+    -ms-text-justify: auto;
+    
+    /* padding: 0 auto; */
+   
+}
+
+.dropdown {
+margin-top: 60px; 
+margin-bottom: 30px;
+}
+
+.mypic {
+    width: auto;
+    height: auto;
+    margin-left: 25px;
+}
+   
+.text{
+    margin-top:60px;  
+}
+
